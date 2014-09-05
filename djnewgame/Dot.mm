@@ -33,6 +33,9 @@
 @synthesize directionChange;
 @synthesize firstTile;
 @synthesize endPoint;
+@synthesize startingPoint;
+@synthesize isOnTop;
+
 
 + (CCSprite *)createDotSprite
 {
@@ -308,14 +311,19 @@
         self.nextTileInPath = [spots objectAtIndex:rand];
         self.firstTile = YES;
         
+   
+        
+        
         if([[spots objectAtIndex:rand] isTopTile])
         {
+            self.isOnTop = YES;
             self.startPosition = ccp(44 + (placeForRandDot * 58), 460);
             //self.startPosition = top;
             self.currentDirection = south;
         }
         if([[spots objectAtIndex:rand] isBottomTile])
         {
+            self.isOnTop = NO;
             self.startPosition = ccp(44 + (placeForRandDot * 58), 60);
             //self.startPosition = bottom;
             self.currentDirection = north;

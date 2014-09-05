@@ -14,6 +14,7 @@
 #import "TileStraight.h"
 #import "BaseTile.h"
 #import "Dot.h"
+#import "EndDot.h"
 #import "GameBoard.h"
 
 //Pixel to metres ratio. Box2D uses metres as the unit for measurement.
@@ -162,9 +163,24 @@ enum {
         greenDot.gameTiles = allGameTiles;
         
         [self addChild:greenDot.dotSprite];
+        
+        
+        realEndDot = [EndDot createDot];
+        realEndDot.dotSprite = [EndDot createDotSprite];
+        realEndDot.dotSprite.position = [realEndDot createStartPositionFrom:availableDotSpots makeOnTop:greenDot.isOnTop];
+        [self addChild:realEndDot.dotSprite];
+        
+        //endDot = [Dot createDot];
+        //CCSprite *greenSprite = [greenDot createDotSprite];
+        //endDot.dotSprite = [Dot createDotSprite];
+        //endDot.dotSprite.position = [endDot createStartPositionFrom:availableDotSpots isStartDot:greenDot.isOnTop];
+        //endDot.gameTiles = allGameTiles;
+        //[self addChild:endDot.dotSprite];
+        
+        
         if(greenDot.canMoveOverTile)
         {
-            [greenDot moveOverTile];
+            //[greenDot moveOverTile];
             // green dot move over tile
         }
         

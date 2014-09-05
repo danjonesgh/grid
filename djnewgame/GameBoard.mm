@@ -80,6 +80,18 @@
     return self.availableSpots;
 }
 
+- (BOOL)isCornerTileWithRow:(int)row andColumn:(int)column
+{
+    if(row == 0 || row == NUM_ROWS - 1)
+    {
+        if(column == 0 || column == NUM_COLUMNS - 1)
+        {
+            return TRUE;
+        }
+    }
+    return FALSE;
+}
+
 - (NSMutableArray *)initializeBoardWithLayer:(CCLayerColor *)layer
 {
     BaseTile *tileObj;
@@ -91,7 +103,17 @@
         for(int i = 0; i < NUM_COLUMNS; i++)
         {
             //tileOrientation _orientation;
-            int rand = arc4random() % 3;
+            int rand = 0;
+            //if( (i == NUM_COLUMNS - 1  && (j == 0 || j == NUM_ROWS))
+            //   || (i == 0 && (j == 0 || j == NUM_ROWS)))
+            if([self isCornerTileWithRow:j andColumn:i])
+            {
+                rand = 1;
+            }
+            else
+            {
+                rand = arc4random() % 3;
+            }
             
             if(rand == 2)
                 tileObj = [TileCross createTile];

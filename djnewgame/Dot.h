@@ -18,8 +18,8 @@
 enum movementDirection { north, south, east, west};
 
 
-@property (nonatomic) movementDirection currentDirection;
-@property (nonatomic) movementDirection directionChange;
+@property (nonatomic) enum movementDirection currentDirection;
+@property (nonatomic) enum movementDirection directionChange;
 @property (nonatomic, retain) CCSprite *dotSprite;
 
 @property (nonatomic) CGPoint startPosition;
@@ -37,6 +37,9 @@ enum movementDirection { north, south, east, west};
 @property (nonatomic) CGPoint endPoint;
 @property (nonatomic) BOOL oneEndPoint;
 @property (nonatomic) BOOL firstTile;
+
+@property (nonatomic) BOOL startingPoint;
+@property (nonatomic) BOOL isOnTop;
 
 
 + (CCSprite *)createDotSprite;

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3E0E8A4217EFAAB600783E7B /* angle-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E0E8A4117EFAAB600783E7B /* angle-hd.png */; };
+		3E4C3CF21856AE2A0008F28A /* EndDot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C3CF11856AE2A0008F28A /* EndDot.m */; };
 		3E6E6B6116E2AAFF00E781B5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E6E6B6016E2AAFF00E781B5 /* QuartzCore.framework */; };
 		3E6E6B6316E2AAFF00E781B5 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E6E6B6216E2AAFF00E781B5 /* OpenGLES.framework */; };
 		3E6E6B6516E2AAFF00E781B5 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E6E6B6416E2AAFF00E781B5 /* OpenAL.framework */; };
@@ -161,6 +162,8 @@
 		3E6E6D4016E2AB0200E781B5 /* GLES-Render.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3E6E6D3F16E2AB0200E781B5 /* GLES-Render.mm */; };
 		3E6E6D4316E2AB0200E781B5 /* blocks.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E6E6D4216E2AB0200E781B5 /* blocks.png */; };
 		3E6E6D5016E2BB5500E781B5 /* TileCross.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3E6E6D4F16E2BB5500E781B5 /* TileCross.mm */; };
+		3E847A511857F4A000B1C8FF /* red-dot-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E847A501857F4A000B1C8FF /* red-dot-hd.png */; };
+		3E847A531857F56800B1C8FF /* red-dot3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E847A521857F56800B1C8FF /* red-dot3.png */; };
 		3EA2A39116ED2A970095451C /* angle.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EA2A38E16ED2A970095451C /* angle.png */; };
 		3EA2A39216ED2A970095451C /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EA2A38F16ED2A970095451C /* cross.png */; };
 		3EA2A39316ED2A970095451C /* straight.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EA2A39016ED2A970095451C /* straight.png */; };
@@ -178,6 +181,8 @@
 
 /* Begin PBXFileReference section */
 		3E0E8A4117EFAAB600783E7B /* angle-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "angle-hd.png"; sourceTree = "<group>"; };
+		3E4C3CF01856AE2A0008F28A /* EndDot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EndDot.h; sourceTree = "<group>"; };
+		3E4C3CF11856AE2A0008F28A /* EndDot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EndDot.m; sourceTree = "<group>"; };
 		3E6E6B5D16E2AAFF00E781B5 /* djnewgameios7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = djnewgameios7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E6E6B6016E2AAFF00E781B5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		3E6E6B6216E2AAFF00E781B5 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -491,6 +496,8 @@
 		3E6E6D4216E2AB0200E781B5 /* blocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blocks.png; path = Resources/blocks.png; sourceTree = "<group>"; };
 		3E6E6D4E16E2BB5500E781B5 /* TileCross.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileCross.h; sourceTree = "<group>"; };
 		3E6E6D4F16E2BB5500E781B5 /* TileCross.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TileCross.mm; sourceTree = "<group>"; };
+		3E847A501857F4A000B1C8FF /* red-dot-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-dot-hd.png"; sourceTree = "<group>"; };
+		3E847A521857F56800B1C8FF /* red-dot3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-dot3.png"; sourceTree = "<group>"; };
 		3EA2A38E16ED2A970095451C /* angle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angle.png; sourceTree = "<group>"; };
 		3EA2A38F16ED2A970095451C /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
 		3EA2A39016ED2A970095451C /* straight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = straight.png; sourceTree = "<group>"; };
@@ -579,6 +586,8 @@
 				3E6E6D3C16E2AB0200E781B5 /* HelloWorldLayer.mm */,
 				3EA57C7D1720B5F30080E866 /* Dot.h */,
 				3EA57C7E1720B5F30080E866 /* Dot.mm */,
+				3E4C3CF01856AE2A0008F28A /* EndDot.h */,
+				3E4C3CF11856AE2A0008F28A /* EndDot.m */,
 				3EA5DA4B173085950074E4E6 /* GameBoard.h */,
 				3EA5DA4C173085950074E4E6 /* GameBoard.mm */,
 				3EA4D194170D0F1E00D24CEB /* BaseTile.h */,
@@ -596,7 +605,9 @@
 		3E6E6B7116E2AAFF00E781B5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				3E847A521857F56800B1C8FF /* red-dot3.png */,
 				3EA2A38E16ED2A970095451C /* angle.png */,
+				3E847A501857F4A000B1C8FF /* red-dot-hd.png */,
 				3E0E8A4117EFAAB600783E7B /* angle-hd.png */,
 				3EA2B2A3172607710036D096 /* greendot-alpha-hd.png */,
 				3EAC51AA17163CD000F55A93 /* greendot-alpha.png */,
@@ -1122,7 +1133,9 @@
 				3E6E6B8416E2AAFF00E781B5 /* iTunesArtwork in Resources */,
 				3E6E6D4316E2AB0200E781B5 /* blocks.png in Resources */,
 				3EA2A39116ED2A970095451C /* angle.png in Resources */,
+				3E847A531857F56800B1C8FF /* red-dot3.png in Resources */,
 				3EA2A39216ED2A970095451C /* cross.png in Resources */,
+				3E847A511857F4A000B1C8FF /* red-dot-hd.png in Resources */,
 				3EA2A39316ED2A970095451C /* straight.png in Resources */,
 				3EAC51A917163C8500F55A93 /* bluedot-alpha.png in Resources */,
 				3EAC51AB17163CD000F55A93 /* greendot-alpha.png in Resources */,
@@ -1274,6 +1287,7 @@
 				3E6E6D3D16E2AB0200E781B5 /* HelloWorldLayer.mm in Sources */,
 				3E6E6D4016E2AB0200E781B5 /* GLES-Render.mm in Sources */,
 				3E6E6D5016E2BB5500E781B5 /* TileCross.mm in Sources */,
+				3E4C3CF21856AE2A0008F28A /* EndDot.m in Sources */,
 				3EA4D196170D0F1E00D24CEB /* BaseTile.mm in Sources */,
 				3EA4D199170D105E00D24CEB /* TileAngle.mm in Sources */,
 				3EA4D19C170D10CB00D24CEB /* TileStraight.mm in Sources */,
